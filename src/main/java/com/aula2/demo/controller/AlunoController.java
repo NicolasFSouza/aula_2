@@ -127,10 +127,6 @@ public class AlunoController {
         model.addAttribute("status", "Status: Up");
         return "alunos/info";
     }
-   /* @GetMapping("/endpoint")
-    public String endpoint(Model model){
-        model.addAttribute("alunos", alunoService.listarTodos());
-        return "alunos/endpointCriativo";
-    }
-    */
+
+
 }
